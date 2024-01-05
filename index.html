@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>calculator</title>
+</head>
+
+<body>
+    <div id="container-1">
+        <p class="screen" id="input-scr"></p>
+        <p class="screen" id="output-scr"></p>
+    </div>
+    <div id="body">
+        <table>
+            <!-- Row 1    [AC  DEL  %  /]-->
+            <tr>
+                <td><button class="btn cancel" id="ac-btn">AC</button></td>
+                <td><button class="btn cancel" id="del-btn">DEL</button></td>
+                <td><button class="btn operator" id="mod-btn">%</button></td>
+                <td><button class="btn operator" id="div-btn">/</button></td>
+            </tr>
+            <!-- Row 1    [7  8  9  X]-->
+            <tr>
+                <td><button class="btn digit" id="btn-7">7</button></td>
+                <td><button class="btn digit" id="btn-8">8</button></td>
+                <td><button class="btn digit" id="btn-9">9</button></td>
+                <td><button class="btn operator" id="mul-btn">*</button></td>
+            </tr>
+            <!-- Row 1    [4  5  6  -]-->
+            <tr>
+                <td><button class="btn digit" id="btn-4">4</button></td>
+                <td><button class="btn digit" id="btn-5">5</button></td>
+                <td><button class="btn digit" id="btn-6">6</button></td>
+                <td><button class="btn operator" id="sub-btn">-</button></td>
+            </tr>
+            <!-- Row 1    [1  2  3  +]-->
+            <tr>
+                <td><button class="btn digit" id="btn-1">1</button></td>
+                <td><button class="btn digit" id="btn-2">2</button></td>
+                <td><button class="btn digit" id="btn-3">3</button></td>
+                <td><button class="btn operator" id="add-btn">+</button></td>
+            </tr>
+            <!-- Row 1    [0     .  =]-->
+            <tr>
+                <td colspan="2"><button class="btn digit" id="btn-0">0</button></td>
+                <td><button class="btn digit" id="dec-btn">.</button></td>
+                <td><button class="btn operator" id="eq-btn">=</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

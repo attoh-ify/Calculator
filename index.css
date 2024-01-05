@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(252, 254, 255);
+    min-height: 500px;
+    min-width: 300px;
+    font-family: 'Trebuchet MS';
+}
+
+.screen {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+#input-scr {
+    font-size: 40px;
+}
+
+#output-scr {
+    font-weight: bold;
+    font-size: 80px;
+    height: 100px;
+}
+
+table {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.btn {
+    border-radius: 50px;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.btn:active,
+.btn:hover {
+    background-color: rgb(200, 236, 127);
+}
+
+.cancel {
+    background-color: rgb(230, 65, 65);
+}
+
+.digit {
+    background-color: beige;
+}
+
+.operator {
+    background-color: cadetblue;
+}
